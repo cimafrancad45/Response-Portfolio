@@ -1,0 +1,170 @@
+/* For Basic Portfolio page*/
+body {
+   font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   color: #777777;
+   font-size: 18px;
+   height: 100%;
+}
+
+.navbar {
+    position: fixed;
+    margin: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background: white;
+    border-bottom: 5px solid #777777;
+    z-index: 1;
+}
+
+.name {
+    position: fixed;
+    float: left;
+    margin: 0 0 0 150px;
+    text-align: center;
+    padding: 20.5px;
+    background: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.links {
+    position: relative;
+    text-align: right;
+    padding: 24px;
+    font-size: 18px;
+}
+
+.mainbody {
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    width: 960px;
+    border-style: solid;
+    border-color: #777777;
+    border-width: 2px;
+    background: white;
+    padding: 25px;
+    z-index: -1;
+}
+
+.profile {
+    float: left;
+    position: relative;
+    margin: 0 15px 15px 15px;
+}
+
+.portfolioList {
+    position: relative;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18px;
+    width: 250px;
+    margin: -75px 0 0 0;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    background: #4aaaa5;
+    color: white;
+    z-index: 1;
+}
+
+.form {
+    width: 100%;
+}
+
+h2 {
+     color: #4aaaa5;
+     padding: 10px;
+     font-family: 'Georgia', Times, Times New Roman, serif;
+     font-size: 30px;
+     font-weight: bold;
+     border-bottom: 4px solid lightgrey;
+     margin: 5px;
+
+ }
+
+p {
+    margin: 10px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 115%;
+}
+
+.footer {
+    font-size: 12px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    background: #666666;
+    color: white;
+    padding: 15px;
+    width: 100%
+  }
+  
+  .clearfix::after { 
+    content: ""; 
+    display: block; 
+    clear: both;
+ }
+
+ @media screen and (max-width: 980px) {
+    .name {
+        margin: 0 0 0 100px;
+    }
+    .mainbody {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .name {
+        margin: 0 0 0 75px;
+    }
+    .mainbody {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .navbar {
+        position: fixed;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-top: 15px;
+
+    }
+
+    .name {
+        position: fixed;
+        float: none;
+        left: 0;
+        top: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    .links {
+        position: relative;
+        float: none;
+        text-align: center;
+        margin: 40px 0 0 0;
+        padding-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .mainbody {
+        width: 375px;
+        margin-top: 75px;
+    }
+    
+    .profile {
+        float: none;
+        margin: 0 75px 15px 75px;
+    }
+}
