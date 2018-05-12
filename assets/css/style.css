@@ -170,6 +170,10 @@ body {
         width: 375px;
         margin-top: 75px;
     }
+
+    h2 {
+        text-align: center;
+    }
     
     .profile {
         float: none;
